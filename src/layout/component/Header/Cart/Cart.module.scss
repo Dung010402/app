@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    animation: ease-in 1s;
+}
+
+.header {
+    margin: 12px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.button {
+    float: right;
+    padding: 12px;
+    margin: 12px;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 2px;
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+}
+
+//Product
+.item {
+    display: flex;
+    padding: 12px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--hover-background);
+        opacity: 0.9;
+    }
+}
+
+.item-img {
+    width: 4.6rem;
+    height: 4.6rem;
+    padding-right: 12px;
+}
+
+.item-title {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-coin {
+    font-size: 1.4rem;
+    padding-left: 24px;
+    font-weight: 500;
+    color: var(--primary);
+}

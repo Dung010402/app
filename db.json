@@ -1,0 +1,143 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "nickNameShop": "Miucho",
+            "nameShop": "Miucho - Thế giới áo thun",
+            "title": "Áo Polo Pique Basic Cotton 100% Ready To Wear - Thương hiệu Coolmate",
+            "coins": "299.000đ",
+            "imageMain": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs6i2f420",
+            "image": [
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs6i2f420",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkzrqr5kfi7194",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkzrqr5kcp2530",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs640qofe",
+                    "alt": "anh"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nickNameShop": "Unilever",
+            "nameShop": "Unilever Việt Nam _ Health & Beauty",
+            "title": "Bàn Chải Điện P/S S100 PRO - Công Nghệ Sóng Âm, Chải Sạch Mảng Bám Tới 10X",
+            "coins": "1.300.000đ",
+            "imageMain": "https://down-vn.img.susercontent.com/file/vn-50009109-52af2d1bd9878ec8b1cb4035a737ec2c",
+            "image": [
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-50009109-52af2d1bd9878ec8b1cb4035a737ec2c",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/sg-11134201-22110-v2koqo4eahjv14",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnmxiftpbmct72",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnmygsjn6hrue3",
+                    "alt": "anh"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nickNameShop": "LASHESUPERFOOD",
+            "nameShop": "LASHE SUPERFOOD | PURITÉ",
+            "title": "Combo 2 Sữa tắm Purité Hoa Anh Đào 1.1L",
+            "coins": "574.000đ",
+            "imageMain": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lp0saut4vo0e26",
+            "image": [
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lp0saut4vo0e26",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-lni67jyelr715a",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-loxvymu6sa5735",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-ln750jrzoldf70",
+                    "alt": "anh"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nickNameShop": "GiaHuyMask",
+            "nameShop": "Gia Huy Mask",
+            "title": "COMBO 10 Bịch 100 Chiếc Khẩu Trang 5D THÁI LAN , Khẩu Trang Careion Đủ Màu Kháng Khuẩn Cao Cấp",
+            "coins": "10.000đ",
+            "imageMain": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-ljstq1by9urm9f",
+            "image": [
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-ljstq1by9urm9f",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-ljstq1bwy3gibf",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-ljstq1bxdjpe36",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmcqirsdypcv71",
+                    "alt": "anh"
+                }
+            ]
+        }
+    ],
+
+    "product": [
+        {
+            "id": 1,
+            "nickNameShop": "Miucho",
+            "nameShop": "Miucho - Thế giới áo thun",
+            "title": "Áo Polo Pique Basic Cotton 100% Ready To Wear - Thương hiệu Coolmate",
+            "reviews": 4,
+            "sold": 97,
+            "coinsBefore": 299,
+            "coinsAfter": 219,
+            "discount": 27,
+            "discountShop": 4,
+            "quantityStock": 311,
+            "imageMain": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs6i2f420",
+            "image": [
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs6i2f420",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkzrqr5kfi7194",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkzrqr5kcp2530",
+                    "alt": "anh"
+                },
+                {
+                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs640qofe",
+                    "alt": "anh"
+                }
+            ]
+        }
+    ]
+}
