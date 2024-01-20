@@ -1,5 +1,5 @@
 {
-  "name": "tiktok",
+  "name": "project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -54,13 +54,13 @@
   "main": "config-overrides.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dung010402/app.git"
+    "url": "git+https://github.com/Dung010402/project.git"
   },
   "author": "dung",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dung010402/app/issues"
+    "url": "https://github.com/Dung010402/project/issues"
   },
-  "homepage": "https://github.com/Dung010402/app#readme",
+  "homepage": "https://github.com/Dung010402/project#readme",
   "description": ""
 }
