@@ -11,10 +11,10 @@ function Home() {
     const [product, setProduct] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/data`)
+        fetch(`https://dung010402.github.io/data/db.json`)
             .then((res) => res.json())
             .then((res) => {
-                setProduct(res);
+                setProduct(res.data);
             });
     }, [setProduct]);
 

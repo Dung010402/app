@@ -42,7 +42,6 @@ function Cart() {
                     </div>
                 </div>
                 <Shop />
-                <Shop />
 
                 <div className={cx('operation')}>
                     <div>

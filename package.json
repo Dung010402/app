@@ -24,8 +24,7 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-app-rewired eject",
-        "server": "json-server --watch db.json --port 5000"
+        "eject": "react-app-rewired eject"
     },
     "eslintConfig": {
         "extends": [
@@ -51,5 +50,17 @@
         "react-app-rewired": "^2.2.1",
         "react-router-dom": "^6.14.2",
         "sass": "^1.64.1"
-    }
+    },
+    "main": "config-overrides.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dung010402/project.git"
+    },
+    "author": "dung",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dung010402/project/issues"
+    },
+    "homepage": "https://github.com/Dung010402/project#readme",
+    "description": ""
 }
