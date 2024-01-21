@@ -16,8 +16,8 @@ function Product() {
         fetch(`https://dung010402.github.io/data/db.json`)
             .then((res) => res.json())
             .then((res) => {
-                setProduct(res.data);
-                console.log(res.data);
+                setProduct(res.product);
+                console.log(res.product);
             });
     }, [setProduct]);
 

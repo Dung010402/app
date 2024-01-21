@@ -104,40 +104,5 @@
                 }
             ]
         }
-    ],
-
-    "product": [
-        {
-            "id": 1,
-            "nickNameShop": "Miucho",
-            "nameShop": "Miucho - Thế giới áo thun",
-            "title": "Áo Polo Pique Basic Cotton 100% Ready To Wear - Thương hiệu Coolmate",
-            "reviews": 4,
-            "sold": 97,
-            "coinsBefore": 299,
-            "coinsAfter": 219,
-            "discount": 27,
-            "discountShop": 4,
-            "quantityStock": 311,
-            "imageMain": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs6i2f420",
-            "image": [
-                {
-                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs6i2f420",
-                    "alt": "anh"
-                },
-                {
-                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkzrqr5kfi7194",
-                    "alt": "anh"
-                },
-                {
-                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkzrqr5kcp2530",
-                    "alt": "anh"
-                },
-                {
-                    "src": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lkqjzrs640qofe",
-                    "alt": "anh"
-                }
-            ]
-        }
     ]
 }
