@@ -9,7 +9,7 @@ export const publicRoutes = [
     { path: '/login', component: Login, layout: null },
     { path: '/register', component: Register, layout: null },
     { path: '/cart', component: Cart, layout: null },
-    { path: '/Miucho', component: Product },
+    { path: '/product/:id', component: Product },
 ];
 
 export const privateRoutes = [];

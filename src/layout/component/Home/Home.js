@@ -11,10 +11,10 @@ function Home() {
     const [product, setProduct] = useState([]);
 
     useEffect(() => {
-        fetch(`https://dung010402.github.io/data/db.json`)
+        fetch(`https://my-json-server.typicode.com/Dung010402/data/data/`)
             .then((res) => res.json())
             .then((res) => {
-                setProduct(res.data);
+                setProduct(res);
             });
     }, [setProduct]);
 
@@ -29,7 +29,7 @@ function Home() {
             </div>
             <div className={cx('inner--item')}>
                 {product.map((result) => (
-                    <Link to={`/${result.nickNameShop}`} className={cx('item')} key={result.id}>
+                    <Link to={`product/${result.id}`} className={cx('item')} key={result.id}>
                         <img className={cx('item--img')} src={result.imageMain} alt="" />
                         <div className={cx('item--title')}>{result.title}</div>
                         <div className={cx('item--price')}>{result.coins}</div>
