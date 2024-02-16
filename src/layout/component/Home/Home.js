@@ -32,7 +32,7 @@ function Home() {
                     <Link to={`product/${result.id}`} className={cx('item')} key={result.id}>
                         <img className={cx('item--img')} src={result.imageMain} alt="" />
                         <div className={cx('item--title')}>{result.title}</div>
-                        <div className={cx('item--price')}>{result.coins}</div>
+                        <div className={cx('item--price')}>{result.coinsAfter}.000đ</div>
                     </Link>
                 ))}
             </div>

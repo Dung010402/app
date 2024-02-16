@@ -12,7 +12,6 @@ const cx = classNames.bind(styles);
 
 function Product() {
     const { id } = useParams();
-    console.log(id);
 
     const [product, setProduct] = useState([]);
 
@@ -26,16 +25,18 @@ function Product() {
 
     return (
         <div>
-            {setProduct ? (
+            {}
+            {product ? (
                 <div className={cx('wrapper')}>
                     {console.log(product)}
                     <div className={cx('image')}>
                         <img className={cx('image-main')} src={product.imageMain} alt="" />
 
                         <div className={cx('image-group')}>
-                            {product.image.map((image) => (
-                                <img className={cx('image-child')} src={image.src} alt="ảnh" />
-                            ))}
+                            <img className={cx('image-child')} src={product.image1} alt={product.title} />
+                            <img className={cx('image-child')} src={product.image2} alt={product.title} />
+                            <img className={cx('image-child')} src={product.image3} alt={product.title} />
+                            <img className={cx('image-child')} src={product.image4} alt={product.title} />
                         </div>
                     </div>
 
@@ -91,7 +92,9 @@ function Product() {
                         </div>
                     </div>
                 </div>
-            ) : null}
+            ) : (
+                product
+            )}
         </div>
     );
 }
