@@ -33,9 +33,9 @@ function Product() {
                         <img className={cx('image-main')} src={product.imageMain} alt="" />
 
                         <div className={cx('image-group')}>
-                            {/* {product.image.map((image) => (
+                            {product.image.map((image) => (
                                 <img className={cx('image-child')} src={image.src} alt="ảnh" />
-                            ))} */}
+                            ))}
                         </div>
                     </div>
 
