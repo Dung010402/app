@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 0 100px;
+    margin: 36px 0;
+}
+
+.list {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.item-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.item-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.description-text {
+    font-size: 1.3rem;
+    color: var(--text-gray);
+    &:hover {
+        color: var(--primary);
+    }
+}

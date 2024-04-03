@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-
-import classNames from 'classnames/bind';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import classNames from 'classnames/bind';
 
 import styles from './Product.module.scss';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +11,7 @@ const cx = classNames.bind(styles);
 function Product() {
     const { id } = useParams();
 
-    const [product, setProduct] = useState([]);
+    const [product, setProduct] = useState();
 
     useEffect(() => {
         fetch(`https://my-json-server.typicode.com/Dung010402/data/data/` + id)
@@ -23,20 +21,27 @@ function Product() {
             });
     }, [id, setProduct]);
 
+    // handle image
+
+    const [numImage, setNumImage] = useState(1);
+
     return (
         <div>
-            {}
             {product ? (
                 <div className={cx('wrapper')}>
-                    {console.log(product)}
                     <div className={cx('image')}>
                         <img className={cx('image-main')} src={product.imageMain} alt="" />
 
                         <div className={cx('image-group')}>
-                            <img className={cx('image-child')} src={product.image1} alt={product.title} />
-                            <img className={cx('image-child')} src={product.image2} alt={product.title} />
-                            <img className={cx('image-child')} src={product.image3} alt={product.title} />
-                            <img className={cx('image-child')} src={product.image4} alt={product.title} />
+                            {product.imageGr.map((img, index) => (
+                                <img
+                                    className={cx('image-child')}
+                                    key={index}
+                                    src={img.image}
+                                    alt="a"
+                                    // onClick={numImage()}
+                                />
+                            ))}
                         </div>
                     </div>
 
@@ -93,7 +98,7 @@ function Product() {
                     </div>
                 </div>
             ) : (
-                product
+                <div></div>
             )}
         </div>
     );

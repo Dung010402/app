@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react';
 import ProductItem from '~/components/Product/Product';
+import classNames from 'classnames/bind';
+import styles from './Shop.module.scss';
+
+const cx = classNames.bind(styles);
 
 function Shop() {
     const [productItem, setProductItem] = useState([]);
@@ -13,7 +17,7 @@ function Shop() {
     }, [setProductItem]);
 
     return (
-        <div>
+        <div className={cx('wrapper')}>
             {productItem.map((result) => (
                 <ProductItem key={result.id} data={result} />
             ))}

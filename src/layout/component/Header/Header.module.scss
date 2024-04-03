@@ -3,6 +3,15 @@
     background-color: var(--primary);
 }
 
+.category {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 24px;
+    :hover {
+        color: var(--primary);
+    }
+}
 .inner {
     display: flex;
     min-height: 80px;
