@@ -1,6 +1,12 @@
 .wrapper {
     padding: 0 100px;
-    margin: 36px 0;
+    margin: 36px 0 16px 0;
+}
+
+.inner {
+    padding-bottom: 40px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--gray);
 }
 
 .list {
@@ -22,10 +28,36 @@
     gap: 12px;
 }
 
-.description-text {
+.description-text p {
     font-size: 1.3rem;
     color: var(--text-gray);
+    margin: 0;
+}
+.description-action p {
+    font-size: 1.3rem;
+    color: var(--text-gray);
+    margin: 0;
     &:hover {
         color: var(--primary);
+    }
+}
+
+.description-action {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 4px;
+    color: var(--text-gray);
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+    span {
+        color: var(--primary);
+        cursor: pointer;
     }
 }
