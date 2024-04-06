@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from './routes';
 import { DefaultLayout } from './layout/DefaultLayout';
+import ShopCategory from './pages/ShopCategory/ShopCategory';
 function App() {
     return (
         <Router>
@@ -22,6 +23,9 @@ function App() {
                             />
                         );
                     })}
+                    <Route path="/category/male" element={<ShopCategory category="men" />} />
+                    <Route path="/category/female" element={<ShopCategory category="women" />} />
+                    <Route path="/category/young" element={<ShopCategory category="kid" />} />
                 </Routes>
             </div>
         </Router>

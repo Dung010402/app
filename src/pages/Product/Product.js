@@ -23,7 +23,7 @@ function Product() {
 
     // handle image
 
-    const [numImage, setNumImage] = useState(1);
+    // const [numImage, setNumImage] = useState(1);
 
     return (
         <div>

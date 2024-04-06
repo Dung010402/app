@@ -84,13 +84,13 @@ function Header() {
                 <Link to={`/`} className={cx('category-item')}>
                     Trang chủ
                 </Link>
-                <Link to={`category/male`} className={cx('category-item')}>
+                <Link to={`/category/male`} className={cx('category-item')}>
                     Nam
                 </Link>
-                <Link to={`category/female`} className={cx('category-item')}>
+                <Link to={`/category/female`} className={cx('category-item')}>
                     Nữ
                 </Link>
-                <Link to={`category/young`} className={cx('category-item')}>
+                <Link to={`/category/young`} className={cx('category-item')}>
                     Trẻ em
                 </Link>
             </div>

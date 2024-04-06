@@ -1,34 +1,8 @@
 .wrapper {
-    padding: 0 100px;
-}
-
-.inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.title {
-    font-size: 1.6rem;
-    font-weight: 600;
-}
-
-.more {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--primary);
-}
-
-.more--icon {
-    margin-left: 6px;
-}
-
-.inner--item {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    padding: 0 100px;
 }
 .item {
     width: 100%;
