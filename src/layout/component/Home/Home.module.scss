@@ -43,10 +43,18 @@
 }
 
 .item--title {
+    height: 32px;
     font-size: 1.4rem;
     font-weight: 500;
+    line-height: 1.6rem;
     margin: 8px;
-    padding-bottom: 20px;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 .item--bottom {
     margin: 8px;
@@ -59,6 +67,15 @@
 .item--price {
     color: var(--primary);
     font-weight: 500;
+}
+
+.item--discount {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 1.2rem;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 2px 4px;
 }
 
 .item--sold {

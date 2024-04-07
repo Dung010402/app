@@ -32,6 +32,7 @@ function Home() {
                     <Link to={`product/${result.id}`} className={cx('item')} key={result.id}>
                         <img className={cx('item--img')} src={result.imageMain} alt="" />
                         <div className={cx('item--title')}>{result.title}</div>
+                        <div className={cx('item--discount')}>Giảm {result.discount}%</div>
                         <div className={cx('item--bottom')}>
                             <div className={cx('item--price')}>{result.coinsAfter}.000đ</div>
                             <div className={cx('item--sold')}>Đã bán {result.sold}</div>

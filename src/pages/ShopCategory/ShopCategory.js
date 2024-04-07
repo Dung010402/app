@@ -28,6 +28,7 @@ function ShopCategory(props) {
                             <Link to={`/product/${item.id}`} className={cx('item')} key={item.id}>
                                 <img className={cx('item--img')} src={item.imageMain} alt="" />
                                 <div className={cx('item--title')}>{item.title}</div>
+                                <div className={cx('item--discount')}>Giảm {item.discount}%</div>
                                 <div className={cx('item--bottom')}>
                                     <div className={cx('item--price')}>{item.coinsAfter}.000đ</div>
                                     <div className={cx('item--sold')}>Đã bán {item.sold}</div>
